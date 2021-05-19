@@ -18,7 +18,7 @@ function HeaderBlock() {
         >
           <CardHomeScreen
             info="Yoga Mountain Web App"
-            image="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/b7c2ba48-a757-4bda-af17-f7b57bed1e72.png"
+            image="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/b820af3c-a0dd-499d-986f-0283dcd54415.png"
           />
         </a>
 
@@ -29,7 +29,7 @@ function HeaderBlock() {
         >
           <CardHomeScreen
             info="McDonald's Web App"
-            image="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/b820af3c-a0dd-499d-986f-0283dcd54415.png"
+            image="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/b7c2ba48-a757-4bda-af17-f7b57bed1e72.png "
           />
         </a>
       </div>
