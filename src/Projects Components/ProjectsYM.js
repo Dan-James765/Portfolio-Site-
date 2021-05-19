@@ -1,9 +1,5 @@
 import React from "react";
-import img1 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/scrnli_5_18_2021_2-43-19 PM.png";
-import img2 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/scrnli_5_18_2021_2-41-23 PM.png";
-import img3 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/scrnli_5_18_2021_2-51-42 PM.png";
-import img4 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/scrnli_5_18_2021_2-56-41 PM.png";
-import img5 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/scrnli_5_18_2021_3-01-25 PM.png";
+
 import { Fade } from "react-awesome-reveal";
 
 function ProjectsMC() {
@@ -21,7 +17,11 @@ function ProjectsMC() {
       <Fade>
         <div className="flex justify-center gap-28 pb-12">
           <div className="rounded overflow-hidden pt-3">
-            <img className="max-w-3xl" src={img1} alt="" />
+            <img
+              className="max-w-3xl"
+              src="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/scrnli_5_18_2021_2-43-19%20PM.png"
+              alt=""
+            />
           </div>
 
           <div className="flex justify-center pt-3 gap-5   ">
@@ -57,7 +57,11 @@ function ProjectsMC() {
       <Fade>
         <div className="flex justify-center gap-28 pb-12">
           <div className=" rounded overflow-hidden pt-3">
-            <img className="max-w-3xl" src={img2} alt="" />
+            <img
+              className="max-w-3xl"
+              src="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/scrnli_5_18_2021_2-41-23%20PM.png"
+              alt=""
+            />
           </div>
 
           <div className="flex justify-center pt-3 gap-5">
@@ -88,7 +92,11 @@ function ProjectsMC() {
       <Fade>
         <div className="flex justify-center gap-28 pb-12">
           <div className=" rounded overflow-hidden pt-3">
-            <img className="max-w-3xl object-contain" src={img3} alt="" />
+            <img
+              className="max-w-3xl object-contain"
+              src="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/scrnli_5_18_2021_2-51-42%20PM.png"
+              alt=""
+            />
           </div>
 
           <div className="flex justify-center pt-3 gap-5  ">
@@ -124,7 +132,11 @@ function ProjectsMC() {
       <Fade>
         <div className="flex justify-center gap-28 pb-12">
           <div className="rounded overflow-hidden pt-3">
-            <img className="max-w-3xl" src={img4} alt="" />
+            <img
+              className="max-w-3xl"
+              src="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/scrnli_5_18_2021_2-56-41%20PM.png"
+              alt=""
+            />
           </div>
 
           <div className="flex justify-center pt-3 gap-5   ">
@@ -156,7 +168,11 @@ function ProjectsMC() {
       <Fade>
         <div className="flex justify-center gap-28 pb-12">
           <div className="rounded overflow-hidden pt-3">
-            <img className="max-w-3xl" src={img5} alt="" />
+            <img
+              className="max-w-3xl"
+              src="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/scrnli_5_18_2021_3-01-25%20PM.png"
+              alt=""
+            />
           </div>
 
           <div className="flex justify-center pt-3 gap-5   ">
