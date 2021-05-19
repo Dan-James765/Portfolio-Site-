@@ -1,6 +1,6 @@
 import React from "react";
 import CardHomeScreen from "../Card Components/CardHomeScreen";
-import imagemc from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/b820af3c-a0dd-499d-986f-0283dcd54415.png";
+import image1 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/b7c2ba48-a757-4bda-af17-f7b57bed1e72.png";
 import img2 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/b7c2ba48-a757-4bda-af17-f7b57bed1e72.png";
 
 function HeaderBlock() {
@@ -18,7 +18,7 @@ function HeaderBlock() {
           href="https://yoga-mountain.vercel.app/"
           target="_blank"
         >
-          <CardHomeScreen info="Yoga Mountain Web App" image={imagemc} />
+          <CardHomeScreen info="Yoga Mountain Web App" image={image1} />
         </a>
 
         <a
