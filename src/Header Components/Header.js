@@ -4,7 +4,7 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillHome } from "react-icons/ai";
 import { GoFlame } from "react-icons/go";
-import { MdWork } from "react-icons/md";
+// import { MdWork } from "react-icons/md";
 import { RiContactsBook2Fill } from "react-icons/ri";
 import { FaReact } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -17,9 +17,9 @@ function Header() {
           <Link to="/">
             <HeaderItem Title="Home" Icon={AiFillHome} />
           </Link>
-          <Link to="/workexperience">
+          {/* <Link to="/workexperience">
             <HeaderItem Title="Work Experience & Education" Icon={MdWork} />
-          </Link>
+          </Link> */}
           <Link to="/programmingskills">
             <HeaderItem Title="Programming Skills" Icon={FaReact} />
           </Link>
