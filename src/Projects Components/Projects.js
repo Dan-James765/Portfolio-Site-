@@ -1,7 +1,5 @@
 import React from "react";
 import CardHomeScreen from "../Card Components/CardHomeScreen";
-import img1 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/b7c2ba48-a757-4bda-af17-f7b57bed1e72.png";
-import img2 from "C:/Users/danja/React Projects/Portfolio SiteSS/xtp/src/b820af3c-a0dd-499d-986f-0283dcd54415.png";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
@@ -18,12 +16,18 @@ function Projects() {
         <div className="flex flex-row gap-x-12 justify-center pt-10 pb-20">
           <div>
             <Link to="/yogamountain">
-              <CardHomeScreen info="Yoga Mountain Web App" image={img1} />
+              <CardHomeScreen
+                info="Yoga Mountain Web App"
+                image="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/b820af3c-a0dd-499d-986f-0283dcd54415.png"
+              />
             </Link>
           </div>
           <div>
             <Link to="/mcdonald's">
-              <CardHomeScreen info="McDonald's Web App" image={img2} />
+              <CardHomeScreen
+                info="McDonald's Web App"
+                image="https://raw.githubusercontent.com/Dan-James765/Portfolio-Site-/main/src/b7c2ba48-a757-4bda-af17-f7b57bed1e72.png"
+              />
             </Link>
           </div>
         </div>
